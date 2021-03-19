@@ -12,7 +12,7 @@ function PlanCard({ heading, summary, price, link, features, getfrom }) {
 
 				<a href={link} className="title__link"
 				// eslint-disable-next-line
-				onClick={() => gtag("event", "select_content", { "content_type": heading, "test-type": "A" })}
+				onClick={() => gtag("event", "select_content", { "content_type": heading, "test-type": "B" })}
 				>Try for <span className="title__link--caps">free</span> &gt;</a>
 
 			</section>
